@@ -1,0 +1,185 @@
+div {
+    border: 1px solid black;
+    display: flex;
+}
+
+#container-1 {
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+}
+
+.header {
+    flex-basis: 20%;
+    background-color: aquamarine;
+}
+
+.body {
+    flex-basis: 80%;
+    flex-direction: row;
+}
+
+.leftsidebar {
+    flex-basis: 30%;
+    background-color: cornflowerblue;
+}
+
+.content {
+    flex-basis: 70%;
+    flex-direction: column;
+}
+
+.content2 {
+    flex-basis: 70%;
+    flex-direction: row;
+}
+
+.main {
+    flex-basis: 80%;
+    background-color: coral;
+}
+
+.rightsidebar {
+    flex-basis: 20%;
+    background-color: darkcyan;
+}
+
+.footer {
+    flex-basis: 30%;
+    background-color: gray;
+
+}
+
+/* 문제 2 */
+
+#container-2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 800px;
+    height: 500px;
+}
+
+.header2, .footer2 {
+    flex-basis: 20%;
+    background-color: aquamarine;
+}
+
+.body2 {
+    flex-basis: 60%;
+
+    display: flex;
+}
+
+.aside {
+    flex-basis: 30%;
+    background-color: aqua;
+
+}
+
+.article {
+    flex-basis: 70%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image1 {
+    width: 30%;
+    height: 50%;
+    background-color: coral;
+
+}
+
+
+/* 문제 3 */
+
+.container-3 {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header3 {
+    flex-basis: 20%;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.header3-1 {
+    flex-basis: 10%;
+}
+
+.header3-2, .header3-3 {
+    flex-basis: 45%;
+}
+
+.body3 {
+    flex-basis: 80%;
+    flex-direction: row;
+}
+
+.contents1 {
+    flex-basis: 30%;
+    flex-direction: column;
+    background-color: skyblue;
+}
+
+.contents1-1 {
+    flex-basis: 30%;
+}
+
+.contents1-2, .contents1-3 {
+    flex-basis: 35%;
+}
+
+.contents2 {
+    flex-basis: 10%;
+    background-color: pink;
+}
+
+.contents3 {
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.contents3-1 {
+    flex-basis: 50%;
+    background-color: coral;
+}
+
+.contents3-2 {
+    flex-basis: 50%;
+    flex-direction: row;
+}
+
+.contents3-2-g {
+    flex-basis: 50%;
+    flex-direction: column;
+    background-color: green;
+}
+
+.contents3-2-g-1, .contents3-2-g-2 {
+    flex-basis: 50%;
+}
+
+.contents3-2-r {
+    flex-basis: 50%;
+    background-color: red;
+}
+
+.contents4 {
+    flex-basis: 10%;
+    background-color: pink;
+    flex-direction: column;
+}
+
+.contents4-1, .contents4-3 {
+    flex-basis: 20%;
+}
+
+.contents4-2 {
+    flex-basis: 60%;
+}

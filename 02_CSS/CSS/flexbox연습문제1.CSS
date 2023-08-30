@@ -1,0 +1,107 @@
+div {
+    border: 1px white;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#container-1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 800px;
+    height: 500px;
+}
+
+.header, .footer {
+
+    color: white;
+    background-color: gray;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#body1 {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex-basis: 30%;
+    background-color: aquamarine;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    flex-basis: 40%;
+    background-color: crimson;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    flex-basis: 30%;
+    background-color: blanchedalmond;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#container-2 {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    flex-basis: 20%;
+    background-color: red;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#body2{
+    flex-basis: 80%;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.nav {
+    flex-basis: 30%;
+    background-color: yellow
+
+}
+
+#body3 {
+    flex-basis: 70%;
+    flex-direction: column;
+    
+}
+
+.content{
+    flex-basis: 80%;
+    background-color: darkseagreen;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    flex-basis: 20%;
+    background-color: darkcyan;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
