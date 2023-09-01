@@ -8,22 +8,106 @@
     <script src="https://kit.fontawesome.com/239b4c84aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="header">
-        <section>
-            <button id="hamburger" class="fa-solid fa-bars"></button>
-            <a href="#">
-                <img src="../Image/youtube-logo.png" id="youtube-logo">
-            </a>
-        </section>
-        <section class="search">
-            <form action="#" name="search-form">
-                <fieldset>
-                    <input type="search" id="query" placeholder="검색">
+    <nav>
+        <section id="header">
+            <section>
+                <button id="hamburger" class="fa-solid fa-bars"></button>
+                <span></span>
+                <a href="#">
+                    <img src="../Image/youtube-logo.png" id="youtube-logo">
+                </a>
+            </section>
+            <section class="search">
+                <form action="#" name="search-form">
+                    <fieldset class="fieldset">
+                        <input type="search" id="query" placeholder="검색">
+                    </fieldset>
                     <button class="fa-regular fa-magnifying-glass" id="search-btn" ></button>
-                </fieldset>
-            </form>
+                </form>
+                <span></span>
+                <button class="fa-solid fa-microphone" id="microphone"></button>
+            </section>
+            <section>
+                <button id="camera" class="fa-solid fa-video"></button>
+                <span></span>
+                <button id="alarm" class="fa-regular fa-bell"></button>
+                <span></span>
+                <button id="profile" class="fa-solid fa-user"></button>
+            </section>
         </section>
-        <section></section>
-    </section>
+    </nav>
+
+    <main>
+        <section class="left">
+            <div class="content-box">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EYSqYs-71Xg?si=2UDB_oeIWEdfdcsT&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+            <div class="content-info-box">
+                <div> <h3> 업보 </h3> </div>
+                <section class="author-info">
+                    <img src="../Image/channels4_profile.jpg">
+                    
+                    <div>
+                        <P>고수달</P>
+                        <P>구독자 2.68명</P>
+                    </div>
+                    <button class="subscribe">구독</button>
+
+                    <section class="content-etc">
+                        <button class="fa-regular fa-thumbs-up" ></button>
+                        <button class="fa-regular fa-thumbs-down"></button>
+                        <span></span>
+                        <button class="fa-solid fa-share">공유</button>
+                        <span></span>
+                        <button class="fa-solid fa-download">오프라인 저장</button>
+                        <span></span>
+                        <button class="fa-solid fa-list-ul"></button>
+                    </section>
+                </section>
+                <div class="content-info">
+                    <p>조회수 1.6만회 16시간 전</p>
+                    <p>방송 보러가기 : <a href="https://www.twitch.tv/gosudal123">https://www.twitch.tv/gosudal123</a></p>
+                    <p>생방송 토요일 제외한 아침 9시 ~ 2시 고정</p>
+                </div>
+                <section class="category">
+                    <section class="category-low">
+                        <img src="../Image/leagueoflegends.jpg">
+                        <p>리그 오브 레전드</p>
+                        <p>2009</p>
+                        <p>게임 찾아보기 ></p>
+                    </section>
+                    <section class="category-high">
+                        <img src="../Image/game.jpg"></section>
+                </section>
+            </div>
+        </section>
+        <section class="right">
+            <section class="side-button">
+              <button>모두</button>
+              <span></span>
+              <button>고수달 제공</button>
+              <span></span>
+              <button>리그 오브 레전드</button>
+            </section>
+            <div>
+                <section class="side-video">
+                    <iframe style="border-radius: 5px;" width="40%" height="auto" src="https://www.youtube.com/embed/1mKVfE_dv-Q?si=dfvZVsIn5FbiKeOB&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div>
+                        <h3>천패원딜 고수달</h3>
+                        <h4>고수달</h4>
+                        <h4>조회수 3.7만회 <ul><li>1년 전</li></ul></h4>
+                    </div>
+
+                    <iframe style="border-radius: 5px;" width="40%" height="auto" src="https://www.youtube.com/embed/fQuByVcTxyU?si=3t_lImaJOnrRtpah&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    <div>
+                        <h3>패작 아닙니다</h3>
+                        <h4>고수달</h4>
+                        <h4>조회수 2.9만회 <ul><li>2주 전</li></ul></h4>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+  
+    </main>
 </body>
 </html>
