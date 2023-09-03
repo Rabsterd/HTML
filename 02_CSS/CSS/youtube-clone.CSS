@@ -7,9 +7,6 @@ body {
     padding: 0;
 }
 
-div, section {
-    border: 1px solid black;
-}
 
 nav {
     width: 100%;
@@ -37,6 +34,7 @@ nav {
     background-color: transparent;
     cursor: pointer;
     border-radius: 50px;
+    border: none;
 }
 
 #hamburger:hover {
@@ -78,6 +76,7 @@ section > section:nth-of-type(2){
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    border: 0;
 }
 
 #microphone:hover {
@@ -133,6 +132,7 @@ section > section:nth-of-type(2){
     border-radius: 50px;
     background-color: transparent;
     cursor: pointer;
+    border: none;
 }
 
 #alarm {
@@ -141,6 +141,7 @@ section > section:nth-of-type(2){
     border-radius: 50px;
     background-color: transparent;
     cursor: pointer;
+    border: none;
 }
 
 #profile {
@@ -149,6 +150,7 @@ section > section:nth-of-type(2){
     border-radius: 50px;
     background-color: transparent;
     cursor: pointer;
+    border: none;
 }
 
 #camera:hover {
@@ -165,12 +167,19 @@ section > section:nth-of-type(2){
 
 main {
     display: flex;
-    width: 80%;
-    height:calc(100% - 56px);
+    width: 100%;
+    height: 100%;
     justify-content: center;
     padding-top: 24px;
     padding-right: 24px;
     margin-left: 24px;
+}
+
+.content-box {
+    display: flex;
+    width: 100%;
+    height: 800px;
+
 }
 
 .left {
@@ -225,12 +234,33 @@ main {
 }
 
 .content-etc {
+    width: 85%;
+    height: 36px;
     display: flex;
     flex-direction: row;
-    background-color: #f2f2f2;
     justify-content: flex-end;
+
+}
+
+.content-etc > button {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    background-color: #f2f2f2;
     border: 0;
     border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+#like {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#dislike {
+       border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .category {
@@ -240,7 +270,6 @@ main {
 
 .category > section {
     display: flex;
-    flex-direction: row;
     background-color: #f2f2f2;
 }
 
@@ -250,12 +279,15 @@ main {
 }
 
 .category-low > img {
+    display: flex;
     width: 72px;
     height: 100px;
 }
 
 .category-low > p {
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .category-high {
@@ -286,6 +318,12 @@ main {
     border: 0;
 }
 
+.side-video > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .side-button > button {
     border: 0;
     border-radius: 5px;
@@ -295,6 +333,8 @@ main {
 
 .side-video {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
