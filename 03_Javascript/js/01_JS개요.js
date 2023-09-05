@@ -5,7 +5,7 @@
 
 function btnClick2() {
     alert("external 버튼이 클릭됨")
-}
+};
 
 function changeColor1() {
     document.getElementById("box").style.backgroundColor = "red";
