@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+section, div{
+    border : 1px solid black;
+    /* content + padding + border 합으로 width/height 지정 */
+}
