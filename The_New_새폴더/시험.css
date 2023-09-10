@@ -21,8 +21,19 @@ body {
     font-weight: bold;
 }
 
+.image {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+}
+
 .main {
-    height: 1200px;
+    height: 1500px;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -33,36 +44,28 @@ body {
     margin-right: 50px;
 }
 
-.image {
-    width: 100%;
-    height: 20%;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.image > img {
-    width: 100%;
-    height: 100%;
-}
 
 .content {
     width: 100%;
-    height: 80%;
+    height: 100%;
     background-color: white;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 22px;
 }
 
+
+
 .left-side {
-    width: 20%;
+    width: 15%;
     height: 100%;
     background-color: bisque;
     display: flex;
     justify-content: start;
     flex-direction: column;
+    display: inline-block;
+
 }
 
 .left-side > ul {
@@ -70,20 +73,30 @@ body {
 }
 
 .center {
-    width: 60%;
+    width: 70%;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 
 }
 
+.github {
+    width: 50px;
+    height: 50px;
+
+}
+
+.java {
+    width: 50px;
+    height: 50px;
+}
+
 .right-side {
-    width: 20%;
+    width: 15%;
     height: 100%;
     background-color: bisque;
-    display: flex;
-    justify-content: center;
-    color: red;
+    display: inline-block;
+    position: sticky;
+    top: 50px;
 }
 
 
