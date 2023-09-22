@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    font-family: "고운 돋움";
+}
+
+
+body {
+    margin: 0;
+    position: relative;
+    height: 2573px;
+    background: #FFFFFF;
+}
+
+/* 프로필 사진 */
+.profile-image {
+    position: absolute;
+    width: 197px;
+    height: 197px;
+    left: 302px;
+    top: 181px;
+}
+
+/* 프로필 관리 버튼 */
+.profile-button{
+    position: absolute;
+    width: 181px;
+    height: 45px;
+    left: 304px;
+    top: 408px;
+
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile-button a {
+    font-family: "Gowun Dodum";
+    text-decoration: none;
+    color: #000000;
+}
+
+/* 이름 */
+.profile-n {
+    position: absolute;
+    width: 60px;
+    height: 31px;
+    left: 590px;
+    top: 231px;
+
+    font-family: 'Gowun Dodum';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+/* 홍길동 */
+.profile-name {
+    position: absolute;
+    width: 116px;
+    height: 60px;
+    left: 579px;
+    top: 272px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+/* 닉네임 */
+.profile-n2 {
+    position: absolute;
+    width: 60px;
+    height: 31px;
+    left: 740px;
+    top: 231px;
+
+    font-family: 'Gowun Dodum';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* 춘식이 */
+.profile-nickname{
+    position: absolute;
+    width: 116px;
+    height: 60px;
+    left: 729px;
+    top: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* 이메일 */
+.profile-e {
+position: absolute;
+width: 80px;
+height: 31px;
+left: 595px;
+top: 352px;
+
+font-family: 'Gowun Dodum';
+font-size: 20px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+/* hong9@gmail.com */
+.profile-email {
+position: absolute;
+width: 275px;
+height: 60px;
+left: 579px;
+top: 393px;
+font-family: 'Gowun Dodum';
+font-size: 20px;
+line-height: 43px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+}
+
+/* 1대1 문의 바 */
+.man-to-man-bar {
+position: absolute;
+width: 157px;
+height: 45px;
+left: 983px;
+top: 190px;
+font-size: 20px;
+line-height: 43px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+/* 1대1 문의 창 */
+.man-to-man {
+position: absolute;
+width: 631px;
+height: 221px;
+left: 983px;
+top: 260px;
+display: flex;
+
+background: rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+.mtm-date {
+    display: flex;
+    
+}

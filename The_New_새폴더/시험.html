@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>홈페이지</title>
-    <link rel="stylesheet" href="/HTML/The_New_새폴더/시험.css">
+    <link rel="stylesheet" href="/The_New_새폴더/시험.css">
+
 </head>
 <body>
     <div class="container">
         <section class="header" id="header">
             권민석 포트폴리오
         </section>
-        <section class="image" ><img src="/코딩.jpg"></section>
+        <section class="image" ><img src="/The_New_새폴더/image/코딩.jpg"></section>
             <section class="main">
               
                 <section class="content">
@@ -20,26 +21,33 @@
                     </section>
                     <section class="center">
                         <h2 id="profile">프로필</h2>
+                        <button type="button" onclick="click()">경고</button>
                         <br>
                         <h2 id="project">프로젝트</h2>
                         <br>
+                        <div class="game">
+                            <img id="penguin" src="/The_New_새폴더/image/penguin.png">
+                        </div>
                         <h2 id="program">사용 프로그램</h2>
                         <br>
-                        <img class="java" src="/HTML/Image/자바.jpg">
+                        <img class="java" src="/The_New_새폴더/image/자바.jpg">
                         <br>
                         <h2 id="git">깃허브</h2>
                         <br>
-                       
-                        <a href="https://github.com/Rabsterd?tab=repositories"> <img src="/HTML/Image/깃허브.jpg"></a>
+                        <div>
+                            <a href="https://github.com/Rabsterd?tab=repositories"> <img src="/The_New_새폴더/image/깃허브.jpg"></a>
+                        </div>
 
                     </section>
                     <section class="right-side">
-                        <ul> 
-                            <li><a href="#prfile">프로필</a></li>
-                            <li><a href="#project">프로젝트</a></li>
-                            <li><a href="#program"></a>프로그램</li>
-                            <li><a href="#git"></a>깃허브</li>
-                        </ul>
+                        <div class="rs-bar">
+                            <ul> 
+                                <li><a href="#prfile">프로필</a></li>
+                                <li><a href="#project">프로젝트</a></li>
+                                <li><a href="#program">프로그램</a></li>
+                                <li><a href="#git">깃허브</a></li>
+                            </ul>
+                        </div>
                     </section>
                 </section>  
                 
@@ -55,5 +63,7 @@
             <a href="#header"><button class="top-view" >↑</button></a>
         </section>
     </div>
+
+    <script src="/The_New_새폴더/시험.js"></script> 
 </body>
 </html>
